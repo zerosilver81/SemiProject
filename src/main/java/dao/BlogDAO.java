@@ -9,8 +9,8 @@ import java.sql.Statement;
 public class BlogDAO {
 		
 	private final String DSN = "jdbc:mysql://localhost:3306/blog?useSSL=false";
-	private final String USER = "study";
-	private final String PASSWORD = "duddms960";
+	private final String USER = "";
+	private final String PASSWORD = "";
 		
 	//데이터베이스 연결정보
 	public Connection getConnection() {
